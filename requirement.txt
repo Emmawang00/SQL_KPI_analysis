@@ -1,0 +1,15 @@
+mysql-connector-python
+pytest
+pylint
+click
+databricks
+databricks-cli
+ipython
+databricks-sql-connector
+fastapi
+uvicorn[standard]
+dask 
+dask[distributed]
+bokeh
+streamlit
+jupyterlab
