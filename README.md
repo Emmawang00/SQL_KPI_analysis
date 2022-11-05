@@ -20,4 +20,5 @@ The project aims to design an interactive queries function of SQL (by connecting
 
 ## Demo of the project
 
-[Demo video Link]
+[Demo video Link](https://user-images.githubusercontent.com/112578755/200143388-96b83308-96be-42f3-9ef8-0500a9fc94b5.mp4)
+
