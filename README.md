@@ -11,7 +11,7 @@ The project aims to design an interactive queries function of SQL (by connecting
 * In codespace, you will be able to access `Database` which is exactly the same as the Azure database, and with this, I created a Datawarehouse and loaded all the needed data from the DB.
 * KPI.sql is the interactive queries that you can perfrom in the codespace.
 
-* The goal of this project is to let KPI evaluation being more efficient and updatable by connecting to a cloud space.
+* The goal of this project is to let KPI evaluation being more efficient and updatable by connecting to a cloud Database.
 
 ## How MySQL looks like in Codespace
 
