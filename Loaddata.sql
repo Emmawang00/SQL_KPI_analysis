@@ -1,14 +1,11 @@
--- Active: 1667572255139@@projectsql.mysql.database.azure.com@3306@702project
-USE 702project;
-
-INSERT INTO 702project.dim_sales (SalesOrderDetailID, ProductID)
+INSERT INTO datawarehouse.dim_sales (SalesOrderDetailID, ProductID)
 SELECT SalesOrderDetailID, ProductID from project.salesorderdetail;
 
-INSERT INTO 702project.dim_category(ProductCategoryID_key, CategoryName)
+INSERT INTO datawarehouse.dim_category(ProductCategoryID_key, CategoryName)
 SELECT c.ProductCategoryID, c.Name
 FROM project.productcategory c;
 
-INSERT INTO 702project.dim_Product(ProductID_key, ProductSubcategoryID, SubcategoryName, ProductCategoryID_key)
+INSERT INTO datawarehouse.dim_Product(ProductID_key, ProductSubcategoryID, SubcategoryName, ProductCategoryID_key)
 
 select DISTINCT * from (
 Select a.ProductID,a.ProductSubcategoryID, h.Name, h.ProductCategoryID
@@ -20,8 +17,8 @@ ON h.ProductSubcategoryID = a.ProductSubcategoryID)j
 Where ProductSubcategoryID != '';
 
 SET FOREIGN_KEY_CHECKS=0;
-
-INSERT INTO GroupProject.fact_salesprocess(
+ 
+INSERT INTO datawarehouse.fact_salesprocess(
 dim_sales_SalesOrderDetailID, dim_Product_ProductID_key, Revenue, 
 PurchaseCost, DelieveryTime, AverageLeadTime, ReorderPoint, Class)
 
