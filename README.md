@@ -15,7 +15,8 @@ The project aims to design an interactive queries function of SQL (by connecting
 
 ## How MySQL looks like in Codespace
 
-<img width="898" alt="Interactive_SQLincodespace" src="https://user-images.githubusercontent.com/112578755/200143362-91be764c-d5af-4ff6-9513-f5b28a9a8cbb.png">
+<img width="1191" alt="HowSQLlooks" src="https://user-images.githubusercontent.com/112578755/200143619-4061776f-d02e-434e-934e-23b027c0183c.png">
+
 
 
 ## Demo of the project
