@@ -27,3 +27,4 @@ FROM fact_salesprocess b
 LEFT JOIN dim_product a ON a.ProductID_key = b.dim_Product_ProductID_key
 GROUP BY a.`SubcategoryName`
 ORDER BY SUM(Revenue) DESC, AVG(`DelieveryTime`) ASC;
+
