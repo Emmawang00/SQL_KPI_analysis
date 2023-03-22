@@ -18,9 +18,3 @@ The project aims to design an interactive queries function of SQL (by connecting
 
 <img width="817" alt="Screen Shot 2022-11-05 at 6 24 57 PM" src="https://user-images.githubusercontent.com/112578755/200143633-854b6703-2012-4b91-98f3-8e5924e5566f.png">
 
-
-
-## Demo of the project
-
-[Demo video Link](https://user-images.githubusercontent.com/112578755/200143388-96b83308-96be-42f3-9ef8-0500a9fc94b5.mp4)
-
